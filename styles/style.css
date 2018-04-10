@@ -1,3 +1,5 @@
+/* header styles */
+
 header {
   display: flex;
   align-items: center;
@@ -28,4 +30,34 @@ nav span{
 nav a {
   color: black;
   padding: 10px;
+}
+
+/*  content styles */
+
+.column {
+  display: flex;
+  border: 1px solid black;
+}
+
+.column .large {
+  width: 630px;
+  border: 1px solid black;
+}
+
+.column .medium {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.column .small {
+  width: 240px;
+  border: 1px solid black;
+}
+
+.image {
+    border: 1px solid black;
+}
+
+.content {
+    border: 1px solid black;
 }
